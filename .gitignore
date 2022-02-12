@@ -1,5 +1,4 @@
 /assets/img/
-/assets/includes/connectDB.php
 /.idea/vcs.xml
 /.idea/inspectionProfiles/Project_Default.xml
 /.idea/Portfolio.iml
@@ -12,3 +11,4 @@
 /.idea/modules.xml
 /Screenshot_1.png
 /.idea/.gitignore
+/assets/dev/connectDB.php
