@@ -1,13 +1,3 @@
-<?php
-/*$connect = mysqli_connect("localhost", "root", "", "llbn");
-$query = "SELECT code FROM pages WHERE url = 'home'";
-
-$result = mysqli_query($connect, $query);
-
-while ($row = mysqli_fetch_array($result)){
-    echo $row["code"];
-}*/
-?>
 <section id="llbn-title">
         <h1>
             <span class="llbn-primary">B</span>ienvenue sur mon
