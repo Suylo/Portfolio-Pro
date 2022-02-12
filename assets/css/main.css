@@ -1,0 +1,877 @@
+:root {
+    --primary        : #4b5672;
+    --secondary      : #ffffff;
+    --tertiary       : #ff5a5a;
+    --quaternary     : #0f9c05;
+    --dark-primary   : #2c2e43;
+    --dark-secondary : #282828;
+
+    --flat           : "Poppins", sans-serif;
+    --content        : "Poppins", sans-serif;
+    --text           : "Open Sans", sans-serif;
+}
+
+html, body {
+    background-color : #cfcfcf;
+}
+
+*::selection{
+    background: transparent;
+    color: #aed6dc;
+}
+
+.llbn-secondary{
+    color:var(--dark-primary);
+}
+/*
+        Navigation - left side
+ */
+#llbn-profile {
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-around;
+    align-items     : center;
+    margin-top      : 20px;
+}
+
+#llbn-profile #llbn-profile-img img {
+    border-radius : 50%;
+}
+
+#llbn-profile-text h2 {
+    font-family : var(--flat);
+    font-weight : 600;
+    font-size   : 2.5em;
+    color       : var(--secondary)
+}
+#llbn-profile-text p {
+    font-family : var(--content);
+    color       : #bdbdbd
+}
+
+
+nav#llbn-nav {
+    position         : fixed;
+    /*top              : 20px;*/
+    /*left             : 20px;*/
+    /*bottom           : 20px;*/
+    top              : 0;
+    left             : 0;
+    bottom           : 0;
+    background-color : var(--primary);
+    /*border-radius    : 15px;*/
+    /*width            : 300px;*/
+    overflow-x       : hidden;
+    width: 320px;
+    z-index          : 10;
+}
+
+ul#llbn-menu {
+    position   : absolute;
+    top        : 0;
+    left       : 0;
+    bottom     : 0;
+    width      : 100%;
+    overflow-x : hidden;
+    z-index    : 20;
+    margin-top: 150px;
+    margin-bottom: 5em;
+
+}
+
+ul#llbn-menu li {
+    margin : 5px 0;
+}
+
+ul#llbn-menu li a {
+    display         : flex;
+    text-decoration : none;
+    color           : #ffffff;
+    font-family     : var(--content);
+    margin-left     : 5px;
+    margin-right    : 5px;
+    transition      : all .2s ease-out;
+    border-radius   : 5px;
+}
+
+ul#llbn-menu li.active a, ul#llbn-menu li a:hover {
+    background-color : white;
+    color            : var(--dark-secondary);
+    border-radius    : 5px;
+    transition       : all .2s ease-out;
+}
+
+ul#llbn-menu li a .llbn-icon-nav {
+    min-width   : 60px;
+    height      : 60px;
+    line-height : 60px;
+    text-align  : center;
+}
+
+ul#llbn-menu li a .llbn-icon-nav i {
+    font-size : 1.2em;
+}
+
+ul#llbn-menu li a .llbn-title-nav {
+    line-height : 60px;
+}
+
+
+ul#llbn-socialmedia {
+    position        : absolute;
+    bottom          : 30px;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : center;
+    align-items     : center;
+    width           : 100%;
+    z-index         : 20;
+}
+ul#llbn-socialmedia i {
+    font-size : 2em;
+}
+ul#llbn-socialmedia li {
+    margin : 0 12px
+}
+ul#llbn-socialmedia a {
+    color      : var(--secondary);
+    transition : all .3s ease;
+}
+ul#llbn-socialmedia a:hover {
+    color      : var(--dark-primary);
+    transition : all .3s ease;
+}
+/* <--------------------> */
+
+
+
+
+/*      Particles.JS      */
+#llbn-particles #particles-js{
+    position : fixed !important;
+    width    : 100%;
+    height   : 100%;
+    z-index  : 1;
+}
+/* <--------------------> */
+
+
+
+
+/*   Right content wrapper */
+
+#llbn-wrapper {
+    position         : fixed;
+    /*top              : 20px;*/
+    /*left             : 340px;*/
+    /*right            : 20px;*/
+    /*bottom           : 20px;*/
+    top              : 0;
+    left             : 320px;
+    right            : 0px;
+    bottom           : 0px;
+    /*border-radius    : 15px;*/
+    background-color : rgba(255, 255, 255, 0.87);
+    z-index          : 20;
+    overflow-x       : hidden;
+    /*box-shadow: 0 0 3px 0 rgba(27, 30, 62, 0.45);*/
+
+}
+
+#llbn-copyrights {
+    position    : absolute;
+    bottom      : 20px;
+    width       : 100%;
+    text-align  : center;
+    font-family : "Open sans", sans-serif;
+    color       : var(--dark-primary);
+    font-size   : 0.8em;
+}
+.llbn-tertiary {
+    color : var(--tertiary)
+}
+/* <---------------------------------------> */
+
+
+
+
+
+/* INDEX / HOME  */
+#llbn-title {
+    text-align : center;
+    padding    : 0.5em;
+}
+
+#llbn-title h1 {
+    font-family : var(--flat);
+    font-weight : 600;
+    font-size   : 3em;
+    color       : var(--dark-secondary);
+    padding     : 0.8em;
+}
+
+.llbn-primary {
+    /*color : var(--primary);
+    color: #ff9a8d;*/
+    color: #ff9a8d;
+}
+
+#llbn-title h1 .llbn-primary {
+    font-size : 1.5em;
+}
+
+.llbn-text-cursive {
+    font-family : "Damion", cursive;
+}
+
+hr.llbn-separator {
+    width         : 20%;
+    border        : 3px solid var(--primary);
+    border-radius : 5px;
+    fill          : var(--primary);
+}
+
+#llbn-title p {
+    max-width   : 50%;
+    text-align  : justify;
+    font-family : var(--text);
+    line-height : 2;
+    font-size   : 1.1em;
+    margin      : 4em auto;
+}
+
+.llbn-btn-primary {
+    border-radius    : 5px;
+    text-decoration  : none;
+    font-family      : var(--flat);
+    padding          : 10px 15px;
+    font-size        : 16px;
+    border           : 1px solid var(--primary);
+    background-color : var(--primary);
+    color            : var(--secondary);
+    transition       : all .2s ease-in;
+}
+
+.llbn-btn-primary:hover {
+    border           : 1px solid var(--primary);
+    background-color : var(--secondary);
+    color            : var(--primary);
+    transition       : all .2s ease-in;
+    cursor           : pointer;
+}
+/* <---------------------------------------> */
+
+
+
+/* INTRODUCTION */
+#llbn-introduction, #llbn-formations, #llbn-skills, #llbn-experiences, #llbn-documentation, #llbn-veille, #llbn-contact {
+    max-width  : 80%;
+    text-align : center;
+    margin     : auto;
+    margin-top : 4em;
+}
+
+#llbn-introduction h1, #llbn-formations h1, #llbn-skills h1, #llbn-experiences h1, #llbn-documentation h1, #llbn-veille h1, #llbn-contact h1 {
+    text-align : left;
+    font-size  : 3em;
+    margin     : 0.5em 0;
+}
+#llbn-experiences{
+    max-width: 90%;
+}
+
+.llbn-separator-pages {
+    width         : 20%;
+    border        : 3px solid var(--dark-primary);
+    border-radius : 0 5px 5px 0;
+    margin        : 0;
+    fill: var(--dark-primary);
+}
+
+#llbn-profile-introduction {
+    margin          : 3em 0;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-evenly;
+    align-items     : center;
+}
+
+
+
+.llbn-btn-primary-reverse {
+    text-decoration  : none;
+    font-family      : var(--flat);
+    padding          : 10px 15px;
+    border-radius    : 5px;
+    font-size        : 16px;
+    border           : 1px solid var(--primary);
+    background-color : transparent;
+    color            : var(--primary);
+    transition       : all .2s ease-in;
+    cursor           : pointer;
+}
+.llbn-btn-primary-reverse:hover {
+    border           : 1px solid var(--primary);
+    background-color : var(--primary);
+    color            : var(--secondary);
+    transition       : all .2s ease-in;
+    cursor           : pointer;
+}
+.llbn-btn-primary-reverse i, .llbn-btn-primary i {
+    font-size      : 25px;
+    vertical-align : -4px;
+}
+
+#llbn-profile-desc {
+    text-align : justify;
+    width      : 50%;
+}
+
+#llbn-profile-introduction #llbn-profile-photo {
+    margin-right : 2em;
+}
+
+#llbn-profile-introduction #llbn-profile-desc {
+    margin-left : 2em;
+}
+
+#llbn-profile-introduction #llbn-profile-photo img {
+    border-radius : 50%;
+    margin-bottom : 25px;
+}
+
+#llbn-profile-introduction #llbn-profile-desc h3, #llbn-veille h3 {
+    text-align: left;
+    font-size   : 2em;
+    margin      : 1em 0;
+    font-family : var(--flat);
+    font-weight : 600;
+    color       : var(--primary);
+}
+
+#llbn-profile-introduction #llbn-profile-desc p {
+    font-family : var(--text);
+    line-height : 2;
+    font-size   : 1em;
+}
+
+#llbn-formations-blocks {
+    margin : 5em 0;
+}
+
+.llbn-formations-content {
+    padding     : 0px 0 80px 10px;
+    border-left : 4px solid var(--primary);
+    position    : relative;
+    max-width   : 750px;
+    line-height : 2;
+}
+.llbn-formations-content::before {
+    content       : "";
+    position      : absolute;
+    width         : 16px;
+    height        : 16px;
+    border-radius : 50px;
+    left          : -14px;
+    top           : 0;
+    background    : var(--primary);
+    border        : 4px solid var(--primary);
+}
+.llbn-formations-content p {
+    text-align   : justify;
+    padding-left : 15px;
+    font-family  : var(--text);
+    font-size    : 1em;
+}
+.llbn-date-tag::before {
+    content     : "> ";
+    color       : var(--primary);
+    font-family : var(--flat);
+}
+
+.llbn-date-tag {
+    color        : var(--dark-primary);
+    font-family  : var(--content);
+    padding-left : 15px;
+    text-align   : left;
+    font-size    : 1.3em;
+}
+.llbn-formations-title {
+    font-family  : var(--flat);
+    color        : var(--primary);
+    font-size    : 1.4em;
+    text-align   : left;
+    padding-left : 15px;
+    font-weight  : 600;
+}
+
+.three_column{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#llbn-skills-icons {
+    display        : flex;
+    flex-direction : column;
+    align-items    : flex-start;
+    margin-bottom  : 3em;
+    width: 100%;
+}
+#llbn-skills-icons a{
+    text-decoration : none;
+}
+#llbn-skills-icons h4 {
+    font-family : var(--flat);
+    font-weight : 300;
+    font-size   : 1.5em;
+    color       : var(--primary);
+    text-align  : left;
+    padding     : 25px;
+}
+
+#llbn-skills-icons h4::before {
+    content : '• ';
+}
+
+.llbn-skills-icons-part {
+    margin : 0.75em 0;
+}
+
+#llbn-skills-intro {
+    text-align  : left;
+    font-family : var(--text);
+    font-size   : 1em;
+}
+
+#llbn-skills-intro i, svg {
+    margin    : 0 25px;
+    font-size : 70px;
+    color     : var(--dark-primary)
+}
+
+
+span.llbn-title-icon {
+    position         : absolute;
+    background-color : var(--primary);
+    font-family      : var(--flat);
+    font-size        : 1em;
+    text-align       : center;
+    padding          : 10px 10px;
+    color            : #ecf0f1;
+    border-radius    : 6px;
+    width            : 80px;
+    bottom           : 100%;
+    left             : 50%;
+    margin-left      : -50px;
+    margin-bottom    : 10px;
+    opacity          : 0;
+    visibility       : hidden;
+    transition       : opacity 0.5s;
+    z-index          : 1;
+}
+
+.llbn-skills-icon:hover .llbn-title-icon {
+    opacity    : 1;
+    visibility : visible;
+}
+.llbn-skills-icon:hover i, svg {
+    opacity    : 0.9;
+    transition : opacity 0.2s;
+    cursor: pointer;
+}
+
+.llbn-skills-icon {
+    position : relative;
+    cursor   : default;
+    display  : inline-block;
+}
+
+/* EXPERIENCES.HTML */
+
+#llbn-professional-xp, #llbn-personal-xp, .llbn-doc-ap {
+    display         : flex;
+    flex-direction  : row;
+    justify-content : flex-start;
+    align-items     : center;
+
+    flex-wrap       : wrap;
+}
+#llbn-personal-xp {
+    margin-bottom : 3em;
+}
+#llbn-experiences h2, #llbn-documentation h2, #llbn-veille h2{
+    font-family : var(--flat);
+    font-size   : 25px;
+    text-align  : left;
+    color       : var(--primary);
+    margin      : 2em auto;
+}
+
+.llbn-xp-card img {
+    border-radius : 5px 5px 0 0;
+}
+
+.llbn-xp-card hr {
+    width         : 25%;
+    border        : 1px solid var(--primary);
+    fill          : var(--primary);
+    border-radius : 2px;
+    margin        : .75em auto;
+}
+
+.llbn-xp-card h3 {
+    font-family    : var(--flat);
+    font-weight    : 600;
+    text-transform : uppercase;
+    color          : var(--dark-primary);
+    font-size      : 20px;
+}
+
+.llbn-xp-card {
+    border-radius    : 5px;
+    background-color : var(--secondary);
+    padding-bottom   : 0.5em;
+    margin           : 1em 2em;
+    box-shadow       : 2px 2px 3px rgba(44, 46, 67, 0.25);
+    /*border-bottom: 2px solid var(--primary)*/
+}
+.llbn-xp-card p {
+    max-width   : 300px;
+    text-align  : justify;
+    padding     : 0.5em;
+    line-height : 1.5;
+    font-family : var(--text);
+    font-size   : 15px;
+    margin      : .5em auto 1.2em auto;
+    color       : var(--dark-secondary)
+}
+
+.llbn-quaternary {
+    color : var(--quaternary) !important;
+}
+
+.llbn-card-list {
+    font-family : var(--text);
+    line-height : 1.5;
+    text-align  : left;
+    margin      : .5em 45px 1.2em 45px;
+    font-size   : 14px;
+}
+
+.llbn-xp-card .label {
+    color            : var(--secondary);
+    background-color : var(--dark-primary);
+    padding          : 5px 10px;
+    border-radius    : 3px;
+    font-family      : var(--text);
+    font-size        : 14px;
+}
+
+.llbn-card-cover {
+    position : relative;
+}
+
+.llbn-card-layer {
+    background-color : rgba(44, 46, 67, 0.87);
+    transition       : all .3s ease !important;
+    display          : flex;
+    align-items      : center;
+    width            : 100%;
+    height           : 100%;
+    position         : absolute;
+    left             : 0;
+    top              : 0;
+    opacity          : 0;
+    text-align       : center;
+    border-radius    : 5px 5px 0 0;
+}
+
+img:visited {
+    outline : none !important;
+}
+
+.llbn-card-layer i {
+    color     : var(--secondary);
+    font-size : 35px;
+    margin    : auto;
+}
+
+.llbn-card-layer:hover {
+    opacity : 1;
+}
+
+.llbn-tech-used {
+    margin : 1em
+}
+
+.llbn-doc-card-content {
+    max-width : 400px !important;
+}
+
+#llbn-documentation p.llbn-intro-doc, #llbn-veille p.llbn-veille-text, #llbn-contact p.llbn-contact-intro {
+    font-family : var(--text);
+    color       : var(--dark-secondary);
+    font-size   : 18px;
+    text-align  : left;
+    margin      : 3em 0;
+    line-height : 2;
+}
+
+
+/* FORM */
+#llbn-contact-form {
+    text-align : left;
+}
+
+#llbn-contact-form p {
+    margin : 1em 0;
+}
+
+#llbn-contact-form input, textarea {
+    padding          : 15px 50px 15px 10px;
+    border           : none;
+    border-left      : 2px solid transparent;
+    font-family      : var(--flat);
+    border-bottom    : 3px solid transparent;
+    transition       : all .2s ease-in;
+    border-radius    : 5px;
+    background-color : #eaeaea;
+    margin           : 0.5em;
+    width            : 25%;
+    font-size        : 16px;
+}
+
+#llbn-contact-form input:focus, textarea:focus {
+    outline       : none !important;
+    border-bottom : 3px solid var(--primary);
+}
+
+#llbn-contact-submit {
+    margin  : 0.5em;
+    padding : 5px 10px !important;
+}
+
+/* RESPONSIVE */
+#llbn-documentation h2{
+    margin: 1em auto !important;
+}
+.llbn-doc-ap{
+    margin-bottom: 1.5em;
+}
+
+@media all and (max-width: 1500px) {
+    #llbn-title p {
+        max-width: 80%;
+    }
+    #llbn-contact-form input, textarea {
+        width : 40%;
+    }
+}
+
+@media all and (max-width: 1300px){
+    #llbn-introduction, #llbn-formations, #llbn-skills, #llbn-experiences, #llbn-documentation, #llbn-veille, #llbn-contact{
+        max-width: 90%;
+    }
+    .llbn-skills-icon{
+        margin: 2em 0;
+    }
+    #llbn-personal-xp{
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 1200px){
+    #llbn-profile-introduction{
+        flex-direction: column-reverse;
+    }
+    #llbn-profile-photo{
+        margin-top: 5em !important;
+    }
+    #llbn-profile-desc{
+        width : 80%;
+    }
+    #llbn-professional-xp{
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 1000px){
+    #llbn-title{
+        margin-bottom: 5em;
+    }
+    p.llbn-doc-card-content{
+    }
+    #llbn-doc-ap a img{
+    }
+    #llbn-contact-form input, textarea{
+        width: 70%;
+    }
+
+    #llbn-contact-form{
+        text-align: center;
+    }
+}
+
+/* MENU RESPONSIVE */
+@media all and (max-width: 810px){
+    nav#llbn-nav{
+        width: 260px !important;
+    }
+    #llbn-wrapper{
+        left: 300px !important;
+    }
+}
+
+
+@media all and (max-width: 775px){
+
+}
+
+.modal-competences, .llbn-modal {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, .7);
+    transition: all .2s;
+    z-index: 90;
+    overflow-y: scroll;
+}
+
+.modal-competences:target, .llbn-modal:target {
+    visibility : visible;
+    opacity    : 1;
+}
+
+.modal-content-competences, .llbn-modal-content {
+    border-radius : 5px;
+    position      : relative;
+    max-width     : 612px;
+    background    : #fff;
+    padding       : 1em 2em;
+    z-index       : 50;
+}
+
+.modal-competences-close, .llbn-modal-close {
+    position        : fixed;
+    width           : 100%;
+    top             : 0;
+    left            : 0;
+    height          : 100%;
+    color           : #585858;
+    text-decoration : none;
+    transition      : all .2s;
+    font-size       : 4em;
+    z-index         : 15;
+    cursor          : auto;
+}
+.modal-content-close {
+    position        : absolute;
+    top             : 10px;
+    right           : 10px;
+    color           : #585858;
+    text-decoration : none;
+    transition      : all .2s;
+    font-size       : 3em;
+    z-index         : 15;
+}
+
+.modal-content-close:hover {
+    color      : #757575;
+    transition : all .2s;
+}
+
+.llbn-modal-title {
+    padding     : 1em !important;
+    font-family : var(--flat);
+    color       : #ff9a8d;
+    font-size   : 1.5em;
+    text-align  : center;
+}
+.llbn-modal-text {
+    margin      : auto;
+    padding     : 2em;
+    text-align  : justify;
+    color       : #757575;
+    line-height : 2;
+    font-family : var(--text);
+}
+
+.llbn-modal-icon {
+    font-size : 10em;
+    color     : var(--primary);
+}
+
+
+.llbn-modal-row, .llbn-row {
+    display         : flex;
+    flex-direction  : row;
+    align-items     : center;
+    justify-content : space-between;
+}
+
+.llbn-row{
+    justify-content: center !important;
+}
+.llbn-row a{
+    margin: 0 5px;
+}
+
+.llbn-modal-content{
+    max-width: 1000px;
+}
+
+.llbn-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.llbn-modal-project .llbn-row{
+    padding: 0 2em 2em 2em;
+}
+
+.llbn-card-link, .llbn-card-details, .llbn-card-projects{
+    text-decoration : none;
+    background: transparent;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--text);
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 5px;
+    margin: auto;
+    transition: all .2s ease-in;
+}
+.llbn-card-link:hover, .llbn-card-details:hover, .llbn-card-projects:hover{
+    color: #ff9a8d;
+    transition: all .2s ease-in;
+    border: 2px solid #ff9a8d;
+}
+.llbn-card-link a, .llbn-card-details a, .llbn-card-projects a{
+    color: white;
+}
+.llbn-card-link i, .llbn-card-details i, .llbn-card-projects i{
+    transition: all .2s ease-in;
+}
+.llbn-card-link:hover i, .llbn-card-details:hover i, .llbn-card-projects:hover i{
+    color: #ff9a8d;
+    transition: all .2s ease-in;
+}
+.llbn-card-projects{
+    margin: 0.5em;
+}
+
+.llbn-xp-card:hover .llbn-card-cover .llbn-card-layer{
+    opacity: 1;
+}

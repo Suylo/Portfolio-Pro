@@ -1,0 +1,11 @@
+RewriteEngine On
+Options +FollowSymLinks
+
+RewriteRule ^home$ ./?q=home
+RewriteRule ^introduction$ ./?q=introduction
+RewriteRule ^educational-background$ ./?q=educational-background
+RewriteRule ^skills$ ./?q=skills
+RewriteRule ^experiences$ ./?q=experiences
+RewriteRule ^documentation$ ./?q=documentation
+RewriteRule ^technological-watch$ ./?q=technological-watch
+RewriteRule ^contact$ ./?q=contact
