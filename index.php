@@ -1,6 +1,6 @@
 <?php
 
-    include "assets/includes/connectDB.php";
+    include "assets/dev/connectDB.php";
 
 ?>
 
