@@ -1,39 +1,6 @@
 <?php
-$msg = "";
 
-if (isset($_POST['submit']) && !empty($_POST['first_name']) && isset($_POST['first_name'])
-    && !empty($_POST['last_name']) && isset($_POST['last_name'])
-    && !empty($_POST['subject']) && isset($_POST['subject'])
-    && !empty($_POST['email']) && isset($_POST['email'])
-    && !empty($_POST['message']) && isset($_POST['message'])) {
-
-    $from = $_POST['email'];
-    $to = "contact@louis-lubineau.fr";
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
-    $subject = $_POST['subject'];
-
-    $message = "Prénom : " . $first_name . "
-    <br>Nom : " . $last_name . "
-    <br>De : " . "louis-lubineau.fr" . "
-    <br>Sujet : " . $subject . "
-    
-    <br><br>Message :
-    
-    " . $_POST['message'];
-
-    $headers = "From: " . $from . "\r\n";
-    $headers .= "Content-Type: text/html; charset=UTF-8";
-
-    $ret = mail('contact@louis-lubineau.fr', $subject, $message, $headers);
-    if ($ret){
-        $msg =  "<p class=\"llbn-contact-intro\">Le mail a bien été envoyé. Merci, je vous recontacterai bientôt.</p>";
-    } else {
-        $msg = "<p class=\"llbn-contact-intro\">Le mail n'a pas pu être envoyé, veuillez réessayer.</p>";
-    }
-
-}
-
+include "assets/dev/contactMail.php";
 
 ?>
 <section id="llbn-contact">
