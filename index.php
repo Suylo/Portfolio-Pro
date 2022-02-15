@@ -15,7 +15,7 @@
             </div>
         </div>
 
-    <nav id="llbn-nav">
+        <nav id="llbn-nav">
         <section id="llbn-profile">
             <section id="llbn-profile-img">
                 <img src="assets/img/-favicon.jpg" alt="Photo de moi" width="100">
@@ -51,7 +51,8 @@
         </ul>
     </nav>
 
-    <main id="llbn-wrapper">
+
+        <main id="llbn-wrapper">
         <?php
         switch ($query){
             case "introduction":
@@ -85,4 +86,4 @@
 
     <?php include 'assets/includes/script.php'; ?>
     </body>
-</html>
+</html>-->
