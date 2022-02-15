@@ -6,8 +6,7 @@
                 <i class="devicon-html5-plain-wordmark"></i>
             </p>
             <p class="llbn-modal-text">
-                L'HTML est la partie structurelle d'une page web. J'ai utilisé ce langage à travers tout mes projets web. J'ai commencé l'apprentissage de l'HTML en 2018, lors de mon année de seconde
-                et depuis je n'ai cessé de progresser.
+               J'ai commencé l'apprentissage de l'HTML en 2018, lors de mon année de seconde.
             </p>
         </div>
         <a href="" class="modal-content-close">
@@ -27,7 +26,7 @@
                 <i class="devicon-css3-plain-wordmark"></i>
             </p>
             <p class="llbn-modal-text">
-                Le CSS est en relation avec l'HTML, ensemble ils ne font qu'un. J'ai commencé l'apprentissage du CSS en même que le HTML.
+                J'ai commencé l'apprentissage du CSS en même temps que le HTML.
             </p>
         </div>
         <a href="" class="modal-content-close">
@@ -40,7 +39,7 @@
 
 <div id="sass" class="modal-competences">
     <div class="modal-content-competences">
-        <h1 class="llbn-modal-title">SASS</h1>
+        <h1 class="llbn-modal-title">SASS (Syntactically Awesome Style Sheets)</h1>
         <div class="llbn-modal-row">
             <p class="llbn-modal-icon">
                 <i class="devicon-sass-plain"></i>
@@ -68,8 +67,8 @@
             </p>
             <p class="llbn-modal-text">
                 Lorsque j'ai commencé le développement web back-end, je me suis orienté vers PHP. J'ai pu l'utiliser
-                dans un premier temps, lors d'un projet d'école en 1ère année, qui était la réalisation d'un site web MVC en PHP Orienté Objet (cf. Sharing-Pictures).
-                En seconde année, je l'ai utilisé mais cette fois ci avec l'aide du framework Laravel.
+                dans un premier temps, lors d'un projet d'école en première année, qui était la réalisation d'un site web MVC en PHP Orienté Objet (cf. Sharing-Pictures).
+                En seconde année, je l'ai utilisé, mais cette fois ci avec l'aide du framework Laravel.
             </p>
         </div>
         <a href="" class="modal-content-close">
@@ -190,7 +189,7 @@
             </p>
             <p class="llbn-modal-text">
                 Mon premier projet en PHP Orienté Objet a été réalisé sans framework. (cf. Sharing-Pictures)
-                Pour mon second, j'ai décide d'utiliser le framework Laravel. (cf. GSB Visite)
+                Pour mon second, j'ai décidé d'utiliser le framework Laravel. (cf. GSB Visite)
             </p>
         </div>
         <a href="" class="modal-content-close">
@@ -231,7 +230,7 @@
                 <i class="devicon-mysql-plain-wordmark"></i>
             </p>
             <p class="llbn-modal-text">
-                Utilisation du SGBD MySQL pour mes différents projets.
+                Utilisation du SGBD MySQL pour mes différents projets (cf. SharingPictures, GSBVisite).
             </p>
         </div>
         <a href="" class="modal-content-close">
@@ -324,18 +323,18 @@
 
 <div id="github" class="modal-competences">
     <div class="modal-content-competences">
-        <h1 class="llbn-modal-title">JitHub</h1>
+        <h1 class="llbn-modal-title">GitHub</h1>
         <div class="llbn-modal-row">
             <p class="llbn-modal-icon">
                 <i class="devicon-github-original-wordmark"></i>
             </p>
             <p class="llbn-modal-text">
-                Utilisation de GitHub avec le langage Git, j'ai utilisé GitHub pour la réalisation de tous mes projets.
+                Utilisation de GitHub, je l'ai utilisé pour la réalisation de tous mes projets.
             </p>
         </div>
         <a href="" class="modal-content-close">
             <i class="bi bi-x"></i>
-        </a>
+        </a>²
     </div>
     <a href="" class="modal-competences-close">
     </a>
