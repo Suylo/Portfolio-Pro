@@ -51,13 +51,6 @@
                             Java
                         </span>
                     </a>
-                </span><!-- @whitespace --><span class="llbn-skills-icon">
-                    <a href="#git">
-                        <i class="devicon-git-plain"></i>
-                        <span class="llbn-title-icon">
-                            Git
-                        </span>
-                    </a>
                 </span>
             </section>
             <div class="three_column">
@@ -85,7 +78,7 @@
                             Laravel 8
                         </span>
                     </a>
-                </span><!-- @whitespace --><span class="llbn-skills-icon">
+                </span><!-- @whitespace <span class="llbn-skills-icon">
                     <a href="#symfony">
                         <i class="devicon-symfony-plain"></i>
                         <span class="llbn-title-icon">
@@ -93,7 +86,7 @@
                         </span>
                     </a>
                 </span>
-                </section>
+                </section>-->
             </div>
                 <!-- Base de données -->
                 <section class="llbn-skills-icons-part">
@@ -115,16 +108,17 @@
                 </span>
                 </section>
                 <!-- Système Admin -->
+
                 <section class="llbn-skills-icons-part">
                     <h4>Système Admin</h4>
-                    <span class="llbn-skills-icon">
+                    <!--<span class="llbn-skills-icon">
                         <a href="#apache">
                             <i class="devicon-apache-line-wordmark"></i>
                             <span class="llbn-title-icon">
                                 Apache
                             </span>
                         </a>
-                </span><!-- @whitespace --><span class="llbn-skills-icon">
+                </span>--><!-- @whitespace --><span class="llbn-skills-icon">
                     <a href="#linux">
                         <i class="devicon-linux-plain"></i>
                         <span class="llbn-title-icon">
@@ -135,12 +129,19 @@
                 </section>
             <!-- Logiciels utilisés -->
             <section class="llbn-skills-icons-part">
-                <h4>Plateformes</h4>
+                <h4>Logiciels</h4>
                 <span class="llbn-skills-icon">
                     <a href="#github">
                        <i class="devicon-github-plain"></i>
                         <span class="llbn-title-icon">
                             GitHub
+                        </span>
+                    </a>
+                </span><!-- @whitespace --><span class="llbn-skills-icon">
+                    <a href="#git">
+                        <i class="devicon-git-plain"></i>
+                        <span class="llbn-title-icon">
+                            Git
                         </span>
                     </a>
                 </span><!-- @whitespace --><span class="llbn-skills-icon">
