@@ -1,7 +1,7 @@
 RewriteEngine On
 Options +FollowSymLinks
 
-RewriteRule ^home$ ./?q=home
+RewriteRule ^welcome-to-my-portfolio$ ./?q=home
 RewriteRule ^introduction$ ./?q=introduction
 RewriteRule ^educational-background$ ./?q=educational-background
 RewriteRule ^skills$ ./?q=skills
