@@ -9,11 +9,11 @@
                J'ai commencé l'apprentissage de l'HTML en 2018, lors de mon année de seconde.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -29,11 +29,11 @@
                 J'ai commencé l'apprentissage du CSS en même temps que le HTML.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -50,11 +50,11 @@
                 C'est un outil très puissant, permettant d'optimiser le temps lors de la réalisation d'un site.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -71,11 +71,11 @@
                 En seconde année, je l'ai utilisé, mais cette fois ci avec l'aide du framework Laravel.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -92,11 +92,11 @@
                 J'ai principalement utilisé JavaScript dans la réalisation d'animations pour des sites web. (cf. Pinoy-Services, Kubik).
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -112,11 +112,11 @@
                 J'ai aussi choisi ce langage pour la réalisation d'un logiciel (Projet GSB) avec la bibliothèque JavaFX.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -132,11 +132,11 @@
                 J'ai utilisé Git lors de mes différents projets. Je l'ai utilisé plus en profondeur lors de mon dernier stage, chez Passerelle.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -152,11 +152,11 @@
                 très bien documenter et permet une nouvelle approche lors de la structuration d'une page web.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -172,11 +172,11 @@
                 C'est un framework très moderne, puissant et très bien documenter.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -192,11 +192,11 @@
                 Pour mon second, j'ai décidé d'utiliser le framework Laravel. (cf. GSB Visite)
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -214,11 +214,11 @@
             Je suis en cours d'apprentissage de celui-ci et je l'utilise pour le projet "TP Golf".
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -233,11 +233,11 @@
                 Utilisation du SGBD MySQL pour mes différents projets (cf. SharingPictures, GSBVisite).
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -252,11 +252,11 @@
                 Utilisation du SGBDR PostGreSQL lors de ma formation du BTS SIO.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -273,11 +273,11 @@
                 aussi pu découvrir le système de réécriture d'URL.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -293,11 +293,11 @@
                 pour mes compétences personnelles.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -312,11 +312,11 @@
                 Utilisation de Bash avec Linux, installation de VPS et de différents modules.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -353,11 +353,11 @@
                 DataGrip lors de la manipulation de données.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -373,11 +373,11 @@
                 Utilisation de l'éditeur de texte Visual Studio Code.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -392,11 +392,11 @@
                 Utilisation de trello afin de gérer les tâches à effectuer lors de mes différents projets.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
 
@@ -412,10 +412,10 @@
                 avec le site web de Kubik.
             </p>
         </div>
-        <a href="" class="modal-content-close">
+        <a href="#" class="modal-content-close">
             <i class="bi bi-x"></i>
         </a>
     </div>
-    <a href="" class="modal-competences-close">
+    <a href="#" class="modal-competences-close">
     </a>
 </div>
