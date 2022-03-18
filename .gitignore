@@ -13,3 +13,5 @@
 /.idea/.gitignore
 /assets/dev/connectDB.php
 /assets/dev/contactMail.php
+/.idea/sshConfigs.xml
+/.idea/webServers.xml
