@@ -14,7 +14,6 @@
                 <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="1378" height="927"></canvas>
             </div>
         </div>
-
         <nav id="llbn-nav">
         <section id="llbn-profile">
             <section id="llbn-profile-img">
@@ -30,13 +29,13 @@
 
         <ul id="llbn-menu">
         <?php while ($row = mysqli_fetch_array($result)){
-            if($query == $row["url"]) {
-                echo '    <li class="active">';
+            if ($row["title"] == "Accueil"){
+                echo '<li class="active" id="1">';
             } else {
-                echo '<li>';
+                echo '<li id="'. $row["id"] . '">';
             }
             echo '
-                <a href="' . $row["url"] . '">
+                <a href="javascript:void(0);">
                     <span class="llbn-icon-nav"><i class="bi bi-' . $row["icon"] .'"></i></span>
                     <span class="llbn-title-nav">' . $row["title"] .'</span>
                 </a>
@@ -51,39 +50,8 @@
         </ul>
     </nav>
 
-
-        <main id="llbn-wrapper">
-        <?php
-        switch ($query){
-            case "introduction":
-                include "assets/includes/introduction.html";
-                break;
-            case "educational-background":
-                include "assets/includes/formations.html";
-                break;
-            case "skills":
-                include "assets/includes/competences.php";
-                break;
-            case "experiences":
-                include "assets/includes/experiences.html";
-                break;
-            case "documentation":
-                include "assets/includes/documentation.html";
-                break;
-            case "technological-watch":
-                include "assets/includes/veille_techno.html";
-                break;
-            case "contact":
-                include "assets/includes/contact.php";
-                break;
-            default:
-                include "assets/includes/home.php";
-                break;
-        }
-        ?>
-
-    </main>
+    <main id="llbn-wrapper"></main>
 
     <?php include 'assets/includes/script.php'; ?>
     </body>
-</html>-->
+</html>
