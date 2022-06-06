@@ -78,15 +78,15 @@
                             Laravel 8
                         </span>
                     </a>
-                </span><!-- @whitespace <span class="llbn-skills-icon">
-                    <a href="#symfony">
-                        <i class="devicon-symfony-plain"></i>
+                </span><!-- @whitespace --><span class="llbn-skills-icon">
+                    <a href="#spring">
+                        <i class="devicon-spring-plain"></i>
                         <span class="llbn-title-icon">
-                            Symfony
+                            Spring Boot
                         </span>
                     </a>
                 </span>
-                </section>-->
+                </section>
             </div>
                 <!-- Base de données -->
                 <section class="llbn-skills-icons-part">
