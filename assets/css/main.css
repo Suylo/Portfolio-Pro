@@ -959,3 +959,10 @@ nav#llbn-nav-mobile{
 .llbn-veille-articles{
     margin: 0 0 5em 0 !important;
 }
+
+.llbn-small {
+    color: var(--primary);
+    font-family: var(--flat);
+    font-size: 16px;
+    font-weight: bold;
+}
