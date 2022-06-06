@@ -693,6 +693,10 @@ img:visited {
     }
     #llbn-profile-desc{
         width : 80%;
+        margin-left: 0 !important;
+    }
+    #llbn-profile-photo{
+        margin-right: 0 !important;
     }
     #llbn-professional-xp{
         justify-content: center;
@@ -718,14 +722,46 @@ img:visited {
 
 /* MENU RESPONSIVE */
 @media all and (max-width: 810px){
-    nav#llbn-nav{
-        display: none;
-    }
     nav#llbn-nav-mobile{
         display: flex;
     }
     #llbn-wrapper{
         left: 0 !important;
+    }
+    #llbn-profile, ul#llbn-socialmedia{
+        display: none;
+    }
+    nav#llbn-nav {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 50;
+        height: 71px;
+        top: auto;
+    }
+    #llbn-wrapper{
+        padding-bottom: 5em;
+    }
+    .llbn-title-nav{
+        display: none;
+    }
+    ul#llbn-menu li a .llbn-icon-nav {
+        min-width: 60px;
+        height: 60px;
+        width: inherit;
+        width: 100%;
+    }
+    ul#llbn-menu li {
+        width: 60px;
+        display: inline-block;
+        width: 100px;
+    }
+    ul#llbn-menu {
+        margin: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
@@ -733,8 +769,18 @@ nav#llbn-nav-mobile{
     display: none;
 }
 
-@media all and (max-width: 775px){
 
+@media all and (max-width: 500px) {
+    #llbn-menu{
+        overflow-x: scroll !important;
+    }
+    #llbn-skills-intro i, svg{
+        margin: 0 20px;
+    }
+    .llbn-skills-icons-part{
+        text-align: center;
+        width: 100%;
+    }
 }
 
 .modal-competences, .llbn-modal {
