@@ -270,7 +270,7 @@ hr.llbn-separator {
 
 /* INTRODUCTION */
 #llbn-introduction, #llbn-formations, #llbn-skills, #llbn-experiences, #llbn-documentation, #llbn-veille, #llbn-contact {
-    max-width  : 80%;
+    max-width  : 90%;
     text-align : center;
     margin     : auto;
     margin-top : 4em;
@@ -541,19 +541,22 @@ span.llbn-title-icon {
     border-radius    : 5px;
     background-color : var(--secondary);
     padding-bottom   : 0.5em;
-    margin           : 1em 2em;
+    margin           : 1em 1em;
     box-shadow       : 2px 2px 3px rgba(44, 46, 67, 0.25);
     /*border-bottom: 2px solid var(--primary)*/
 }
 .llbn-xp-card p {
     max-width   : 300px;
-    text-align  : justify;
+    text-align  : center;
     padding     : 0.5em;
     line-height : 1.5;
     font-family : var(--text);
     font-size   : 15px;
     margin      : .5em auto 1.2em auto;
     color       : var(--dark-secondary)
+}
+.llbn-xp-card p span{
+    font-size: 16px;
 }
 
 .llbn-quaternary {
